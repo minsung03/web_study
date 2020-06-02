@@ -1,3 +1,4 @@
+window.onload = function(){
 const second = document.querySelector(".seconds");
 const minute = document.querySelector(".minutes");
 const hour = document.querySelector(".hours");
@@ -20,6 +21,7 @@ setDate = () => {
 };
 
 setInterval(setDate, 1000);
+}
 /* 아날로그 부분인데 헷갈려서 하다가 접은거
 setInterval(function(){
     let nowtime = new.Date();
