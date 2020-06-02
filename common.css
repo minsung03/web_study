@@ -1,9 +1,0 @@
-body {text-align: center; background: #333; background-size: auto 130%; background-position: center center; min-height: 100%;}
-h1 {display: inline-block; padding: 1rem 2rem; color: #fff; font-weight: 900;}
-.stick { width: 50%; height: 6px; background: #111; position: absolute; top: 50%; transition: 0.05s; transform: rotate(90deg); transform-origin: 100%; transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);}
-.hours {z-index: 3; background: #fff;}
-.minutes { z-index: 2; background: #ccc;}
-.seconds { z-index: 1; background: #669;}
-.clock-layer { width: 30rem; height: 30rem; border: 1.5rem solid white; border-radius: 50%; margin: 3rem auto; position: relative; padding: 2rem; box-shadow: 0 0 0px 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #eee, inset 0 0 10px #000, 0 0 10px rgba(0, 0, 0, .5);}
-.clock {width: 2rem; height: 2rem; background-color: #ff1; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 100%; z-index: 4;}
-.clock-body {position: relative; width: 100%; height: 100%;}
